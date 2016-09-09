@@ -1,15 +1,14 @@
 # sharedMusicRoom
 Solution to I Heart Media Scala code challenge
 
-Issues
+### Issues ###
 These do not work
 
-```import java.time.LocalDateTime
-import java.time.temporal.ChronoUnit```
+- `import java.time.LocalDateTime`
+- `import java.time.temporal.ChronoUnit`
 
-and generated errors like 
+and generate errors like 
 
-error: object time is not a member of package java
+`error: object time is not a member of package java`
 
-So I am using
-import com.github.nscala_time.time.Imports._
+Meanwhile, I should probably not be using time anyway, but a msec counter instead
